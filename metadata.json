@@ -1,0 +1,8 @@
+{
+  "name": "THE BLOOM - Cafe & Patisserie",
+  "description": "Premium botanical café & patisserie in Jayanagar, Bengaluru. Reserve your table online, explore the artisan menu, view gallery, and manage reservations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

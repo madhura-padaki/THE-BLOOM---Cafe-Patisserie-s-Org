@@ -1,0 +1,398 @@
+{
+  "settings": {
+    "name": "THE BLOOM - Cafe & Patisserie",
+    "tagline": "Where good food meets beautiful moments.",
+    "description": "A cozy café in Jayanagar serving thoughtfully crafted food, coffee, desserts and drinks in a warm botanical setting.",
+    "address": "448, 18th Main Road, 4th T Block East, Pattabhirama Nagar",
+    "area": "Jayanagar",
+    "city": "Bengaluru, Karnataka",
+    "postalCode": "560041",
+    "phone": "+91 72597 43546",
+    "whatsappNumber": "+917259743546",
+    "email": "hello@thebloomcafe.in",
+    "instagramHandle": "",
+    "slotDurationMinutes": 90,
+    "maxPartySize": 12,
+    "seatingCapacity": {
+      "Indoor": 30,
+      "Outdoor": 18,
+      "Balcony": 14
+    },
+    "confirmationNotes": "Tables are reserved for 90 minutes. We hold reserved tables for up to 15 minutes past the scheduled arrival time. Please call or WhatsApp us if you are delayed."
+  },
+  "businessHours": {
+    "Monday": {
+      "day": "Monday",
+      "open": "12:00",
+      "close": "23:00",
+      "isOpen": true
+    },
+    "Tuesday": {
+      "day": "Tuesday",
+      "open": "11:00",
+      "close": "23:00",
+      "isOpen": true
+    },
+    "Wednesday": {
+      "day": "Wednesday",
+      "open": "11:00",
+      "close": "23:00",
+      "isOpen": true
+    },
+    "Thursday": {
+      "day": "Thursday",
+      "open": "11:00",
+      "close": "23:00",
+      "isOpen": true
+    },
+    "Friday": {
+      "day": "Friday",
+      "open": "11:00",
+      "close": "23:00",
+      "isOpen": true
+    },
+    "Saturday": {
+      "day": "Saturday",
+      "open": "11:00",
+      "close": "23:00",
+      "isOpen": true
+    },
+    "Sunday": {
+      "day": "Sunday",
+      "open": "11:00",
+      "close": "23:00",
+      "isOpen": true
+    }
+  },
+  "specialClosures": [],
+  "reservations": [
+    {
+      "id": "BLM-3455",
+      "customerName": "Rahul Verma",
+      "phone": "9811223344",
+      "email": "rahul.verma@example.com",
+      "date": "2026-10-06",
+      "time": "7:30 PM",
+      "guests": 3,
+      "seatingPreference": "Outdoor",
+      "occasion": "Birthday",
+      "specialRequests": "Outdoor garden table",
+      "status": "Confirmed",
+      "createdAt": "2026-09-30T06:11:35.128Z",
+      "updatedAt": "2026-09-30T06:11:35.128Z"
+    },
+    {
+      "id": "BLM-8117",
+      "customerName": "Priya Sharma",
+      "phone": "9876543210",
+      "email": "priya@example.com",
+      "date": "2026-10-05",
+      "time": "7:00 PM",
+      "guests": 2,
+      "seatingPreference": "Indoor",
+      "occasion": "Date",
+      "specialRequests": "Quiet corner table please",
+      "status": "Confirmed",
+      "createdAt": "2026-09-30T05:48:49.452Z",
+      "updatedAt": "2026-09-30T05:48:49.452Z"
+    },
+    {
+      "id": "BLM-5543",
+      "customerName": "Kavya Rao",
+      "phone": "+91 99000 11223",
+      "email": "kavya@example.com",
+      "date": "2026-09-30",
+      "time": "7:00 PM",
+      "guests": 2,
+      "seatingPreference": "Balcony",
+      "occasion": "Date",
+      "specialRequests": "Corner table with fairy lights",
+      "status": "Confirmed",
+      "createdAt": "2026-09-30T05:28:21.764Z",
+      "updatedAt": "2026-09-30T05:28:21.764Z"
+    },
+    {
+      "id": "BLM-9281",
+      "customerName": "Pooja Narayanan",
+      "phone": "+91 98450 12345",
+      "email": "pooja.n@gmail.com",
+      "date": "2026-09-30",
+      "time": "12:30 PM",
+      "guests": 2,
+      "seatingPreference": "Balcony",
+      "occasion": "Date",
+      "specialRequests": "Quiet corner table please",
+      "status": "Confirmed",
+      "createdAt": "2026-09-29T05:28:11.097Z",
+      "updatedAt": "2026-09-29T05:28:11.097Z"
+    },
+    {
+      "id": "BLM-9282",
+      "customerName": "Vikram & Friends",
+      "phone": "+91 98801 67890",
+      "email": "vikram.k@outlook.com",
+      "date": "2026-09-30",
+      "time": "07:30 PM",
+      "guests": 4,
+      "seatingPreference": "Outdoor",
+      "occasion": "Birthday",
+      "specialRequests": "Celebrating a 25th birthday, would love dessert candle presentation!",
+      "status": "Confirmed",
+      "createdAt": "2026-09-29T17:28:11.097Z",
+      "updatedAt": "2026-09-29T17:28:11.097Z"
+    }
+  ],
+  "menuCategories": [
+    "Coffee & Hot Beverages",
+    "Cold Beverages",
+    "Desserts",
+    "Patisserie",
+    "Pasta",
+    "Sandwiches",
+    "Starters / Small Plates",
+    "Main Course",
+    "Salads",
+    "Special / Seasonal Items"
+  ],
+  "menuItems": [
+    {
+      "id": "menu-1",
+      "name": "Classic Venetian Tiramisu",
+      "description": "Savoiardi ladyfingers steeped in fresh espresso and Marsala, layered with whipped mascarpone cream and dusted with Dutch cocoa.",
+      "price": "₹340",
+      "category": "Patisserie",
+      "isVegetarian": true,
+      "isBestseller": true,
+      "isSignature": true,
+      "image": "/src/assets/images/desserts_patisserie_1790745741987.jpg"
+    },
+    {
+      "id": "menu-2",
+      "name": "Biscoff Caramel Cheesecake",
+      "description": "Slow-baked creamy Philadelphia cheesecake base layered with rich spiced Lotus Biscoff spread and biscuit crumble.",
+      "price": "₹360",
+      "category": "Desserts",
+      "isVegetarian": true,
+      "isBestseller": true,
+      "isSignature": true,
+      "image": "/src/assets/images/desserts_patisserie_1790745741987.jpg"
+    },
+    {
+      "id": "menu-3",
+      "name": "Artisan Dark Fudge Brownie",
+      "description": "Warm, 70% dark Belgian chocolate fudge brownie with a crackly crust, served with vanilla bean mascarpone glaze.",
+      "price": "₹280",
+      "category": "Desserts",
+      "isVegetarian": true,
+      "isBestseller": true,
+      "isSignature": true
+    },
+    {
+      "id": "menu-4",
+      "name": "Signature Belgian Mocha",
+      "description": "Double ristretto espresso poured over melted Belgian couverture dark chocolate with steamed silky milk.",
+      "price": "₹260",
+      "category": "Coffee & Hot Beverages",
+      "isVegetarian": true,
+      "isBestseller": true,
+      "isSignature": true,
+      "image": "/src/assets/images/coffee_lifestyle_1790745757586.jpg"
+    },
+    {
+      "id": "menu-5",
+      "name": "Velvet French Hot Chocolate",
+      "description": "Thick European drinking chocolate crafted with single-origin cocoa, a hint of Madagascar vanilla, and whipped cream.",
+      "price": "₹280",
+      "category": "Coffee & Hot Beverages",
+      "isVegetarian": true,
+      "isBestseller": true,
+      "isSignature": true
+    },
+    {
+      "id": "menu-6",
+      "name": "Handcrafted Genovese Pesto Pasta",
+      "description": "Al dente tagliatelle tossed in fragrant fresh sweet basil, roasted pine nuts, extra virgin olive oil, and aged parmesan.",
+      "price": "₹420",
+      "category": "Pasta",
+      "isVegetarian": true,
+      "isBestseller": true,
+      "isSignature": true
+    },
+    {
+      "id": "menu-7",
+      "name": "Glazed Raspberry & Lychee Entremet",
+      "description": "Mirror-glazed spherical entremet with lychee mousse, raspberry coulis center, and delicate almond dacquoise base.",
+      "price": "₹390",
+      "category": "Patisserie",
+      "isVegetarian": true,
+      "isSeasonal": true,
+      "isSignature": true,
+      "image": "/src/assets/images/desserts_patisserie_1790745741987.jpg"
+    },
+    {
+      "id": "menu-8",
+      "name": "Truffle Cream Cheese Dim Sum",
+      "description": "Translucent steamed parcels filled with herbed Philadelphia cream cheese, water chestnuts, and subtle white truffle oil.",
+      "price": "₹360",
+      "category": "Starters / Small Plates",
+      "isVegetarian": true,
+      "isBestseller": true,
+      "isSignature": true
+    },
+    {
+      "id": "menu-9",
+      "name": "Rose Vanilla Cloud Latte",
+      "description": "Lightly floral rose essence and bourbon vanilla paired with specialty espresso and velvety milk foam, garnished with dried rose petals.",
+      "price": "₹270",
+      "category": "Coffee & Hot Beverages",
+      "isVegetarian": true,
+      "isBestseller": false,
+      "image": "/src/assets/images/coffee_lifestyle_1790745757586.jpg"
+    },
+    {
+      "id": "menu-10",
+      "name": "Iced Spanish Cortado",
+      "description": "Concentrated espresso shaken over ice with sweetened condensed milk and fresh organic whole milk.",
+      "price": "₹250",
+      "category": "Cold Beverages",
+      "isVegetarian": true
+    },
+    {
+      "id": "menu-11",
+      "name": "Sparkling Peach & Rosemary Iced Tea",
+      "description": "Cold-steeped Darjeeling black tea infused with white peach puree, fresh rosemary sprigs, and sparkling mineral water.",
+      "price": "₹240",
+      "category": "Cold Beverages",
+      "isVegetarian": true,
+      "isVegan": true
+    },
+    {
+      "id": "menu-12",
+      "name": "Wild Burrata & Charred Sourdough",
+      "description": "Fresh artisanal burrata cheese from local dairy, heirloom cherry tomatoes, basil reduction, and grilled country sourdough.",
+      "price": "₹460",
+      "category": "Starters / Small Plates",
+      "isVegetarian": true
+    },
+    {
+      "id": "menu-13",
+      "name": "Grilled Halloumi & Roasted Pepper Panini",
+      "description": "Crispy pressed ciabatta with grilled Cypriot halloumi, fire-roasted sweet bell peppers, balsamic glaze, and rocket leaves.",
+      "price": "₹390",
+      "category": "Sandwiches",
+      "isVegetarian": true
+    },
+    {
+      "id": "menu-14",
+      "name": "Slow Roasted Herb Chicken Sourdough Sandwich",
+      "description": "Thyme-basted tender chicken breast, aged gouda, pickled shallots, and house Dijon aioli on toasted artisan sourdough.",
+      "price": "₹440",
+      "category": "Sandwiches",
+      "isVegetarian": false
+    },
+    {
+      "id": "menu-15",
+      "name": "Truffle & Forest Wild Mushroom Risotto",
+      "description": "Arborio rice slowly simmered with porcini stock, sautéed shiitake, shimeji mushrooms, fresh thyme, and Grana Padano.",
+      "price": "₹490",
+      "category": "Main Course",
+      "isVegetarian": true
+    },
+    {
+      "id": "menu-16",
+      "name": "Citrus Quinoa & Avocado Garden Bowl",
+      "description": "Organic red quinoa, creamy Hass avocado, ruby grapefruit segments, crisp baby spinach, and honey-mustard vinaigrette.",
+      "price": "₹380",
+      "category": "Salads",
+      "isVegetarian": true,
+      "isVegan": true
+    },
+    {
+      "id": "menu-17",
+      "name": "Seasonal Mango & Passionfruit Tart",
+      "description": "Crisp sablé tart shell filled with Alphonso mango curd, passionfruit gel, and edible pansy blossoms.",
+      "price": null,
+      "category": "Special / Seasonal Items",
+      "isVegetarian": true,
+      "isSeasonal": true
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-1",
+      "title": "Botanical Garden House Sanctuary",
+      "category": "Interior",
+      "image": "/src/assets/images/hero_cafe_botanical_1790745726283.jpg",
+      "caption": "Sunlit interior with lush tropical plants and warm natural textures in Jayanagar."
+    },
+    {
+      "id": "gal-2",
+      "title": "Artisan Patisserie & Sweet Craft",
+      "category": "Desserts",
+      "image": "/src/assets/images/desserts_patisserie_1790745741987.jpg",
+      "caption": "Handcrafted Tiramisu, Biscoff Cheesecake, and seasonal entremets."
+    },
+    {
+      "id": "gal-3",
+      "title": "Morning Specialty Brew",
+      "category": "Coffee",
+      "image": "/src/assets/images/coffee_lifestyle_1790745757586.jpg",
+      "caption": "Freshly pulled espresso with delicate tulip latte art in ceramic tableware."
+    },
+    {
+      "id": "gal-4",
+      "title": "Balcony Terrace Under the Canopy",
+      "category": "Outdoor",
+      "image": "/src/assets/images/dining_outdoor_terrace_1790745770650.jpg",
+      "caption": "Breezy outdoor seating surrounded by greenery and warm evening ambient lights."
+    },
+    {
+      "id": "gal-5",
+      "title": "Handmade Pasta & Culinary Details",
+      "category": "Food",
+      "image": "/src/assets/images/hero_cafe_botanical_1790745726283.jpg",
+      "caption": "Fresh basil pesto and artisanal dishes prepared fresh daily."
+    },
+    {
+      "id": "gal-6",
+      "title": "Afternoon Conversations & Catch-ups",
+      "category": "Moments",
+      "image": "/src/assets/images/dining_outdoor_terrace_1790745770650.jpg",
+      "caption": "A relaxed space where good food meets beautiful moments."
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "author": "Sneha Kulkarni",
+      "rating": 5,
+      "date": "2 weeks ago",
+      "comment": "One of Jayanagar’s most charming cafe spots. The botanical aesthetic and warm lighting make it feel like an intimate garden retreat. The Tiramisu and Rose Vanilla Latte are unforgettable!",
+      "source": "Google Review"
+    },
+    {
+      "id": "rev-2",
+      "author": "Rahul Deshmukh",
+      "rating": 5,
+      "date": "1 month ago",
+      "comment": "Loved the outdoor balcony seating, such a peaceful vibe in 4th T Block. The Pesto Pasta and Biscoff Cheesecake were phenomenal. Reserving a table online made the weekend brunch completely hassle-free.",
+      "source": "Google Review"
+    },
+    {
+      "id": "rev-3",
+      "author": "Meera Venkatesh",
+      "rating": 5,
+      "date": "3 weeks ago",
+      "comment": "The house-style atmosphere is cozy and romantic. Attentive hospitality, thoughtfully crafted coffee, and aesthetic presentation across every dish.",
+      "source": "Google Review"
+    },
+    {
+      "id": "rev-4",
+      "author": "Ananya Hegde",
+      "rating": 5,
+      "date": "1 month ago",
+      "comment": "A true sanctuary in the heart of Jayanagar. The Truffle Cream Cheese Dim Sum and Velvet Hot Chocolate are to die for! Perfect for slow mornings or date evenings.",
+      "source": "Google Review"
+    }
+  ]
+}
